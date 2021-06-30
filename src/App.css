@@ -1,0 +1,28 @@
+.scratch_container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.scratch_viewport {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+.scratch_picture-under {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: -1;
+}
+
+.scratch_container canvas {
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}

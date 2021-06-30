@@ -1,0 +1,37 @@
+.card {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card #leftBtn {
+  align-items: flex-start;
+  width: 100px;
+  margin: 10px 30px 10px 0px;
+}
+.card #rightBtn {
+  float: right;
+  width: 100px;
+  margin: 10px 0px 10px 30px;
+}
+.card #upBtn {
+  float: center;
+  width: 100px;
+}
+.card #downBtn {
+  float: center;
+  width: 100px;
+}
+.container {
+  margin: 20px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.motherContainer {
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  justify-content: center;
+  width: auto;
+}
