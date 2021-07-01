@@ -122,63 +122,8 @@ function Create(props){
                 }
                 
 
-           <nav class="navbar navbar-light bg-light justify-content-between">
-              <a class="navbar-brand">Wowio</a>
-              
-            <Button variant="primary" class="btn btn-outline-success my-2 my-sm-0" onClick={handleShow}>Create</Button>
-            </nav>
-            
-        
-
-            <Modal  backdrop="static" show={show} onHide={handleClose}>
-                <Modal.Header >
-                <Modal.Title>Create one</Modal.Title>x
-                <Button variant="secondary" onClick={handleClose}>Close</Button>
-                </Modal.Header>
-                <Modal.Body>
-                <div className="container">
-                
-                <div className="card col-xs-8">
-
-                <form onSubmit={submitInfo}>
-                
-                <div className="form-group">
-                    <label for="exapmleMsg">Message</label>
-                    <textarea id="msgId" type="text" className="form-control" placeholder="Secret message" required/>
-                </div>
-                <div class="form-group">
-                    <label for="exapmleMsg">From</label>
-                    <input id="fromId" type="text" className="form-control" placeholder="Name" required/>
-                </div>
-                {/* <div class="form-group">
-                    <label for="exapmleMsg">Question to unlock</label>
-                    <input id="queId" type="text" className="form-control" placeholder="Question" required/>
-                </div>
-                <div class="form-group">
-                    <label for="exapmleMsg">Answer</label>
-                    <input id="ansId" type="text" className="form-control" placeholder="Answer" required/>
-                </div> */}
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input id="emailId" type="email" className="form-control" aria-describedby="emailHelp" placeholder="Enter email" required/>
-                    <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                
-                <button id="subBtn"  type="submit" class="btn btn-primary">Submit</button>
-                </form>
-                </div>
-
-                <h6>{url}</h6>
-                </div>
-
-
-                </Modal.Body>
-                <Modal.Footer>
-                <small id="emailHelp" className="form-text text-muted">Thanks for using :).</small>
-
-                
-                </Modal.Footer>
-            </Modal>
+          
+      
             
         
         </div>

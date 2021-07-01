@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 import ScratchCardComponent from '../components/ScratchCardComponent';
 import SeenCardComponent from '../components/SeenCardComponent';
 import firebase from '../utils/firebase';
