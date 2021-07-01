@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/Wowio/static/css/main.fbfea999.chunk.css",
-    "main.js": "/Wowio/static/js/main.e6ec9a1e.chunk.js",
-    "main.js.map": "/Wowio/static/js/main.e6ec9a1e.chunk.js.map",
+    "main.js": "/Wowio/static/js/main.16d492a5.chunk.js",
+    "main.js.map": "/Wowio/static/js/main.16d492a5.chunk.js.map",
     "runtime-main.js": "/Wowio/static/js/runtime-main.2cd76077.js",
     "runtime-main.js.map": "/Wowio/static/js/runtime-main.2cd76077.js.map",
     "static/css/2.6d844947.chunk.css": "/Wowio/static/css/2.6d844947.chunk.css",
-    "static/js/2.f90beb7b.chunk.js": "/Wowio/static/js/2.f90beb7b.chunk.js",
-    "static/js/2.f90beb7b.chunk.js.map": "/Wowio/static/js/2.f90beb7b.chunk.js.map",
+    "static/js/2.e9fdf975.chunk.js": "/Wowio/static/js/2.e9fdf975.chunk.js",
+    "static/js/2.e9fdf975.chunk.js.map": "/Wowio/static/js/2.e9fdf975.chunk.js.map",
     "static/js/3.6d97665f.chunk.js": "/Wowio/static/js/3.6d97665f.chunk.js",
     "static/js/3.6d97665f.chunk.js.map": "/Wowio/static/js/3.6d97665f.chunk.js.map",
     "index.html": "/Wowio/index.html",
     "static/css/2.6d844947.chunk.css.map": "/Wowio/static/css/2.6d844947.chunk.css.map",
     "static/css/main.fbfea999.chunk.css.map": "/Wowio/static/css/main.fbfea999.chunk.css.map",
-    "static/js/2.f90beb7b.chunk.js.LICENSE.txt": "/Wowio/static/js/2.f90beb7b.chunk.js.LICENSE.txt",
+    "static/js/2.e9fdf975.chunk.js.LICENSE.txt": "/Wowio/static/js/2.e9fdf975.chunk.js.LICENSE.txt",
     "static/media/profile-pic.369662be.jpeg": "/Wowio/static/media/profile-pic.369662be.jpeg",
     "static/media/unlock.ed23db57.jpg": "/Wowio/static/media/unlock.ed23db57.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2cd76077.js",
     "static/css/2.6d844947.chunk.css",
-    "static/js/2.f90beb7b.chunk.js",
+    "static/js/2.e9fdf975.chunk.js",
     "static/css/main.fbfea999.chunk.css",
-    "static/js/main.e6ec9a1e.chunk.js"
+    "static/js/main.16d492a5.chunk.js"
   ]
 }
