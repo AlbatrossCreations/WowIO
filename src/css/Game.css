@@ -1,37 +1,39 @@
+@media only screen and (max-width: 600px) {
+  .col-4 {
+    flex-direction: column;
+  }
+}
+
+.container {
+  text-align: center;
+  width: 400px;
+}
+.column {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .card {
   width: 300px;
-  display: flex;
-  flex-wrap: wrap;
 }
-.card #leftBtn {
-  align-items: flex-start;
-  width: 100px;
-  margin: 10px 30px 10px 0px;
-}
-.card #rightBtn {
-  float: right;
-  width: 100px;
-  margin: 10px 0px 10px 30px;
-}
-.card #upBtn {
-  float: center;
-  width: 100px;
-}
-.card #downBtn {
-  float: center;
-  width: 100px;
-}
-.container {
-  margin: 20px;
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
+.text {
+  padding-left: 10px;
+  width: 100%;
+  padding-top: 10px;
   align-content: center;
 }
-.motherContainer {
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
-  justify-content: center;
-  width: auto;
+#fixedBtns {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+#note1 {
+  color: white;
+  font-weight: lighter;
+  font-family: sans-serif;
 }

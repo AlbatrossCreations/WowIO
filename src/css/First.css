@@ -1,0 +1,33 @@
+.container {
+  text-align: center;
+  width: 400px;
+}
+.column {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+  width: 300px;
+}
+.text {
+  padding-left: 10px;
+  width: 100%;
+  padding-top: 10px;
+  align-content: center;
+}
+#fixedBtns {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+#note1 {
+  color: white;
+  font-weight: lighter;
+  font-family: sans-serif;
+}

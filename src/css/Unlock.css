@@ -1,0 +1,34 @@
+.unlock-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+#cardImg {
+  max-width: 50%;
+  max-height: 100%;
+  border-radius: 6px;
+}
+.col-4 {
+  flex-direction: row;
+  display: flex;
+}
+.btnCreate {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .col-4 {
+    flex-direction: column;
+  }
+}
+
+.card {
+  width: min-content;
+  padding: 30px;
+  box-shadow: white;
+}
+.text {
+  padding-left: 10px;
+  padding-top: 10px;
+  align-content: center;
+}

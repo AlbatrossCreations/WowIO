@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "firebase": "^8.6.8",
+    "jquery": "^3.6.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
     "react-button": "^1.2.1",
@@ -19,6 +20,7 @@
     "react-router-dom": "^5.2.0",
     "react-scratchcard": "^1.0.0",
     "react-scripts": "4.0.3",
+    "react-typing-animation": "^1.6.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

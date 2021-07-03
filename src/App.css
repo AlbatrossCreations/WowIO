@@ -1,3 +1,8 @@
+#imgLogo {
+  height: 3rem;
+  margin-top: 10px;
+  margin-left: 10px;
+}
 .scratch_container {
   position: relative;
   margin: 0 auto;
@@ -25,4 +30,13 @@
   width: 100%;
   height: auto;
   z-index: 1;
+}
+body {
+  background: #000;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  width: auto;
+  height: auto;
+  overflow: auto;
 }

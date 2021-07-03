@@ -6,6 +6,7 @@ import { useState } from 'react';
 import {NavLink} from 'react-router-dom';
 import firebase from '../utils/firebase';
 import Countdown from 'react-countdown';
+import Typing from 'react-typing-animation';
 
 function Create(props){
     const [show, setShow] = useState(false);
@@ -63,8 +64,31 @@ function Create(props){
           //  alert("Sorry boss time up")
           console.log("Sorry boss time up")
         }else{
-            
+            return null;
         }
+    }
+    function timerLayout(hour,min,sec){ 
+    return(
+      
+       
+      <div id="clockdiv">
+    
+        <div>
+          <span className="hours">{hour<10?"0"+hour:hour}</span>
+          <div className="smalltext">Hours</div>
+        </div>
+        <div>
+          <span className="minutes">{min<10?"0"+min:min}</span>
+          <div className="smalltext">Mins</div>
+        </div>
+        <div>
+          <span className="seconds">{sec<10?"0"+sec:sec}</span>
+          <div className="smalltext">Secs</div>
+        </div>
+      </div>
+      
+
+    )
     }
     
 
@@ -72,52 +96,84 @@ function Create(props){
     const renderer = ({ hours, minutes, seconds, completed }) => {
       if (completed) {
         // Render a completed state
+        props.delete()
         return <Completionist1 />;
       } else {
         // Render a countdown
-        return <h2>The message will turn invalid in {hours}:{minutes}:{seconds}</h2>;
+        return timerLayout(hours,minutes,seconds);
       }
     };
     const renderer2 = ({ hours, minutes, seconds, completed }) => {
         if (completed) {
           // Render a completed state
+          props.delete()
           return <Completionist2 />;
         } else {
           // Render a countdown
-          return <h2>Game ends in {hours}:{minutes}:{seconds}</h2>;
+          return timerLayout(hours,minutes,seconds);
         }
       };
       const renderer3 = ({ hours, minutes, seconds, completed }) => {
         if (completed) {
           // Render a completed state
           props.makeInvalid()
+          props.delete()
           return null;
         } else {
           // Render a countdown
-          return <h2>Message vanishes in {hours}:{minutes}:{seconds}</h2>;
+          return timerLayout(hours,minutes,seconds);
         }
       };
     return(
         
        
             <div>
+               
+              
                   {console.log("GAME STARTED",props.gameStarted)}
                 {
-                    props.time?(props.gameStarted?
+                    props.isDeleted?(null):(props.time?(props.gameStarted?
+                      <div>
                         <Countdown
-                        date={Date.now()+90*1000}
-                        renderer={renderer2}
+                      date={Date.now()+900*1000}
+                      renderer={renderer2}
+                      />
+                        <Typing loop={true} speed={50}>
+                      <h5 id="createTxt">When countdown hits 00:00:00 the message will be deleted </h5>
+                      <Typing.Reset/>
+                      </Typing>
+                      
+                      </div>
+                      
+                      :
+                      <div>
+                       <Countdown
+                      date={Number(props.time)}
+                      renderer={renderer}
+                      
+                      />
+                        <Typing loop={true} speed={50}>
+                        <h5 id="createTxt">When countdown hits 00:00:00 the message will be deleted </h5>
+
+                      <Typing.Reset/>
+                      </Typing>
+                      
+                      </div>
+                      ):(props.showFinalTimer?(
+                        <div>
+                           <Countdown
+                        date={Date.now()+10*1000}
+                
+                        renderer={renderer3}
                         />
-                        :
-                        <Countdown
-                        date={Number(props.time)}
-                        renderer={renderer}
-                        
-                        />):(props.showFinalTimer?(<Countdown
-                          date={Date.now()+10*1000}
-                  
-                          renderer={renderer3}
-                          />):null)
+                          <Typing loop={true} speed={50}>
+                          <h5 id="createTxt">When countdown hits 00:00:00 the message will be deleted </h5>
+
+                      <Typing.Reset/>
+                      </Typing>
+                       
+                        </div>
+                        ):null))
     
                 }
                 

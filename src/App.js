@@ -1,7 +1,7 @@
 
 import './App.css';
-import React, { Component } from 'react';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom' 
+import React, { Component, useEffect } from 'react';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom' 
 
 
 
@@ -9,9 +9,11 @@ import Home from './pages/Home';
 import Create from './pages/Home';
 import Nav from '../src/components/NavComponent'
 import firebase from '../src/utils/firebase';
-import First from './components/First';
+import First from './pages/First';
 import { Modal,Button } from 'react-bootstrap';
 import { useState } from 'react';
+import logoImg from '../src/images/wowio-logo2.png'
+
 
 
  
@@ -20,6 +22,7 @@ function App(props){
   const [url, setUrl] = useState("Url will appear here");
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
 
   function submitInfo(e) {
     e.preventDefault()
@@ -33,11 +36,11 @@ function App(props){
     {/* SUBMIT TO FIREBASE */}
     const msgsRef = firebase.database().ref('Messages/')
     const newMsg = {
-      msg:msg,
-      created:(Date.now()+(30*60*1000)),
-      from:name,
-      mail:email,
-      seen: false,
+      MSG:msg,
+      C:(Date.now()+(30*60*1000)),//TODO: LATER UPDATE TO 2=>30
+      F:name,
+      M:email,
+      S: false,
     //   que:que,
     //   ans:ans
     };
@@ -57,7 +60,9 @@ function App(props){
   return (
     <Router>
     <nav class="navbar navbar-light bg-light justify-content-between">
-      <a class="navbar-brand">Wowio</a>
+    
+    <img src={logoImg} id="imgLogo" alt=""/>
+   
       
     <Button variant="primary" onClick={handleShow} class="btn btn-outline-success my-2 my-sm-0">Create</Button>
     </nav>
@@ -100,7 +105,7 @@ function App(props){
                 </form>
                 </div>
 
-                <h6>https://albatrosscreations.github.io/Wowio/home/{url}</h6>
+                <h6>https://albatrosscreations.github.io/Wowio/#/home/{url}</h6>
                 </div>
 
 
