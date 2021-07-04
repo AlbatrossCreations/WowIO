@@ -1,7 +1,12 @@
 #imgLogo {
   height: 3rem;
   margin-top: 10px;
+
   margin-left: 10px;
+  text-decoration-color: white;
+}
+#createBtn {
+  text-decoration: none !important;
 }
 .scratch_container {
   position: relative;

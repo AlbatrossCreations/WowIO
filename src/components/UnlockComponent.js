@@ -9,12 +9,12 @@ class UnlockComponent extends Component{
     render(){
         return(
          
-            <div class="row card">
+            <div class="row " >
             <div class="col-4">
                 <img  id="cardImg"src={unlockImg}/>
                 <div class="text">
                 <h5 >Locked</h5>
-                    <p >Either unlock on go away</p>
+                    <p >The message is locked, either unlock and read or go away</p>
                     <a onClick={this.props.start} class="btn btnCreate btn-primary">Unlock</a>
                 </div>
             </div>

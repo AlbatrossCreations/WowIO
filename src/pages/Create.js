@@ -162,7 +162,7 @@ function Create(props){
                       ):(props.showFinalTimer?(
                         <div>
                            <Countdown
-                        date={Date.now()+10*1000}
+                        date={Date.now()+60*1000}
                 
                         renderer={renderer3}
                         />
