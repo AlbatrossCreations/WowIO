@@ -27,7 +27,7 @@ class First extends Component{
       }
     
       componentDidMount(){
-        document.body.style.backgroundColor = "#000000"
+       document.body.style.backgroundColor = "#000000"
 
       }
 
@@ -44,27 +44,7 @@ class First extends Component{
       handleWindowSizeChange = () => {
         this.setState({ width: window.innerWidth });
       };
-      settingsMob = {
-        
-        image: imgMob,
-        width:400,
-        height:200,
-        finishPercent: 50,
-        onComplete: () => {
-          console.log('The card is now clear!')
-          
-        }
-      };
-      settingsWeb = {
-        
-        image: img,
-        width:962,
-        height:495,
-        finishPercent: 50,
-        onComplete: () => {
-          console.log('The card is now clear!')
-        }
-      };
+     
 
    
     render(){
@@ -73,12 +53,14 @@ class First extends Component{
       return(
       <>
         
+
+ 
   <section id="hero" style={isMobile?{}:{marginTop:"200px"}} class="d-flex align-items-center">
 
     <div class="container">
-      <div class="row">
+      <div style={{backgroundColor:"black"}} class="row">
         <div id="c1" class=" col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1">
-          <h1>Wanna say something special to someone really special. Than why do it in a normal way? Do it in the <i>wowio</i> way</h1>
+          <h1 style={{color:"white"}}>Wanna say something special to someone really special. Than why do it in a normal way? Do it in the <i>wowio</i> way</h1>
           <h2>Wowio adds some secrecy, interest, and curiosity to your message.</h2>
           <a style={{textDecoration:"none"}} href="#create" class="btn-get-started scrollto">Create one for me</a>
         </div>
@@ -93,20 +75,20 @@ class First extends Component{
   <main id="main">
 
   <section id="services" class="services section-bg">
-      <div class="container containerCard">
+      <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>Working</h2>
-          <p>How's wowio different?</p>
+        <div style={isMobile?{}:{marginTop:"40px"}} class="section-title" data-aos="fade-up">
+          
+          <p style={{color:"white"}}>How's wowio different?</p>
         </div>
 
-        <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+        <div style={{backgroundColor:"black"}} class="row">
+          <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon">
              
               <FontAwesomeIcon style={{color:"orange"}} size='3x' icon={faTheaterMasks} /></div>
-              <h4 class="title">Eagerness</h4>
+              <h4 style={{color:"black"}} class="title">Eagerness</h4>
               <p class="description">The message turns invalid after 30 minutes from creation</p>
             </div>
           </div>
@@ -116,7 +98,7 @@ class First extends Component{
               <div class="icon">        
                    <FontAwesomeIcon style={{color:"orange"}} size='3x' icon={faGamepad} />
               </div>
-              <h4 class="title">Curiousity</h4>
+              <h4 style={{color:"black"}} class="title">Curiousity</h4>
               <p class="description">Reciever needs to win a simple game to unlock tme message</p>
             </div>
           </div>
@@ -126,7 +108,7 @@ class First extends Component{
               <div class="icon">
               <FontAwesomeIcon style={{color:"orange"}} size='3x' icon={faHandSparkles} />
               </div>
-              <h4 class="title">Magic</h4>
+              <h4 style={{color:"black"}} class="title">Magic</h4>
               <p class="description">The message gets deleted in 30 seconds after unlock</p>
             </div>
           </div>
@@ -137,7 +119,7 @@ class First extends Component{
               <FontAwesomeIcon style={{color:"orange"}} size='3x' icon={faGrinTongueWink} />
 
               </div>
-              <h4 class="title">Uniquesness</h4>
+              <h4 style={{color:"black"}} class="title">Uniquesness</h4>
               <p class="description">The message can be tried to unlock only once and can be seen only then. Failing to unlock will delete the message forever</p>
             </div>
           </div>

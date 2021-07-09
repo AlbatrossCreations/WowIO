@@ -1,8 +1,10 @@
 body {
   font-family: "Open Sans", sans-serif;
-  color: #212529;
+  color: #ffffff;
 }
-
+#c1 {
+  color: white;
+}
 a {
   color: #eb5d1e;
 }
@@ -20,6 +22,8 @@ h5,
 h6,
 .font-primary {
   font-family: "Raleway", sans-serif;
+  text-decoration-color: white;
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -347,7 +351,6 @@ h6,
 #hero {
   width: 100%;
   height: 70vh;
-  border-bottom: 2px solid #fcebe3;
 }
 
 #hero h1 {
@@ -355,7 +358,7 @@ h6,
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #ffffff;
+  color: #4e4039;
 }
 
 #hero h2 {
@@ -576,7 +579,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+.icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -588,8 +591,7 @@ section {
   text-align: center;
   border-bottom: 3px solid #fff;
 }
-
-.services .icon-box:hover {
+.icon-box:hover {
   transform: translateY(-5px);
   border-color: #ef7f4d;
 }
@@ -695,7 +697,6 @@ section {
   margin: 0 4px;
   font-size: 18px;
   line-height: 1;
-  background-color: #fff;
   padding-top: 6px;
   padding-right: 1px;
   border-radius: 50px;
@@ -1022,7 +1023,6 @@ section {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #fbe2d8 !important;
 }
 
 .clients .owl-dot.active {
@@ -1047,7 +1047,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #fdf1ec;
+
   display: flex;
   justify-content: center;
   align-items: center;

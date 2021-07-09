@@ -29,9 +29,10 @@ function App(props){
 
     </NavLink>
    
+   
 
    
-   
+    <a style={{textDecoration:"none",justifyContent:"right"}} href="#">Home</a>
     <NavLink  to={"/create"} exact>
     <Button id="createBtn" variant="primary" class="btn btn-outline-success my-2 my-sm-0">Create</Button>
 
