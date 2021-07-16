@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Wowio/static/css/main.090aed0c.chunk.css",
-    "main.js": "/Wowio/static/js/main.257edfe4.chunk.js",
-    "main.js.map": "/Wowio/static/js/main.257edfe4.chunk.js.map",
+    "main.css": "/Wowio/static/css/main.a9a56d6d.chunk.css",
+    "main.js": "/Wowio/static/js/main.152f6e7e.chunk.js",
+    "main.js.map": "/Wowio/static/js/main.152f6e7e.chunk.js.map",
     "runtime-main.js": "/Wowio/static/js/runtime-main.7e1e2aaa.js",
     "runtime-main.js.map": "/Wowio/static/js/runtime-main.7e1e2aaa.js.map",
     "static/css/2.fb991572.chunk.css": "/Wowio/static/css/2.fb991572.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.7857cc6d.chunk.js.map": "/Wowio/static/js/3.7857cc6d.chunk.js.map",
     "index.html": "/Wowio/index.html",
     "static/css/2.fb991572.chunk.css.map": "/Wowio/static/css/2.fb991572.chunk.css.map",
-    "static/css/main.090aed0c.chunk.css.map": "/Wowio/static/css/main.090aed0c.chunk.css.map",
+    "static/css/main.a9a56d6d.chunk.css.map": "/Wowio/static/css/main.a9a56d6d.chunk.css.map",
     "static/js/2.795df61e.chunk.js.LICENSE.txt": "/Wowio/static/js/2.795df61e.chunk.js.LICENSE.txt",
     "static/media/albatross-logo.fcf86f90.svg": "/Wowio/static/media/albatross-logo.fcf86f90.svg",
     "static/media/bottom.369f0608.svg": "/Wowio/static/media/bottom.369f0608.svg",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.7e1e2aaa.js",
     "static/css/2.fb991572.chunk.css",
     "static/js/2.795df61e.chunk.js",
-    "static/css/main.090aed0c.chunk.css",
-    "static/js/main.257edfe4.chunk.js"
+    "static/css/main.a9a56d6d.chunk.css",
+    "static/js/main.152f6e7e.chunk.js"
   ]
 }
