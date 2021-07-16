@@ -1,28 +1,34 @@
 {
   "files": {
-    "main.css": "/Wowio/static/css/main.3849eb79.chunk.css",
-    "main.js": "/Wowio/static/js/main.ca8fc530.chunk.js",
-    "main.js.map": "/Wowio/static/js/main.ca8fc530.chunk.js.map",
-    "runtime-main.js": "/Wowio/static/js/runtime-main.01a16c1e.js",
-    "runtime-main.js.map": "/Wowio/static/js/runtime-main.01a16c1e.js.map",
+    "main.css": "/Wowio/static/css/main.92441668.chunk.css",
+    "main.js": "/Wowio/static/js/main.92aa23c0.chunk.js",
+    "main.js.map": "/Wowio/static/js/main.92aa23c0.chunk.js.map",
+    "runtime-main.js": "/Wowio/static/js/runtime-main.1f867b06.js",
+    "runtime-main.js.map": "/Wowio/static/js/runtime-main.1f867b06.js.map",
     "static/css/2.6d844947.chunk.css": "/Wowio/static/css/2.6d844947.chunk.css",
-    "static/js/2.42eccda9.chunk.js": "/Wowio/static/js/2.42eccda9.chunk.js",
-    "static/js/2.42eccda9.chunk.js.map": "/Wowio/static/js/2.42eccda9.chunk.js.map",
-    "static/js/3.b92563b1.chunk.js": "/Wowio/static/js/3.b92563b1.chunk.js",
-    "static/js/3.b92563b1.chunk.js.map": "/Wowio/static/js/3.b92563b1.chunk.js.map",
+    "static/js/2.a517b89f.chunk.js": "/Wowio/static/js/2.a517b89f.chunk.js",
+    "static/js/2.a517b89f.chunk.js.map": "/Wowio/static/js/2.a517b89f.chunk.js.map",
+    "static/js/3.27ef2e51.chunk.js": "/Wowio/static/js/3.27ef2e51.chunk.js",
+    "static/js/3.27ef2e51.chunk.js.map": "/Wowio/static/js/3.27ef2e51.chunk.js.map",
     "index.html": "/Wowio/index.html",
     "static/css/2.6d844947.chunk.css.map": "/Wowio/static/css/2.6d844947.chunk.css.map",
-    "static/css/main.3849eb79.chunk.css.map": "/Wowio/static/css/main.3849eb79.chunk.css.map",
-    "static/js/2.42eccda9.chunk.js.LICENSE.txt": "/Wowio/static/js/2.42eccda9.chunk.js.LICENSE.txt",
+    "static/css/main.92441668.chunk.css.map": "/Wowio/static/css/main.92441668.chunk.css.map",
+    "static/js/2.a517b89f.chunk.js.LICENSE.txt": "/Wowio/static/js/2.a517b89f.chunk.js.LICENSE.txt",
+    "static/media/albatross-logo.fcf86f90.svg": "/Wowio/static/media/albatross-logo.fcf86f90.svg",
+    "static/media/bottom.369f0608.svg": "/Wowio/static/media/bottom.369f0608.svg",
     "static/media/hero-img.436b051a.svg": "/Wowio/static/media/hero-img.436b051a.svg",
+    "static/media/left.6aecda05.svg": "/Wowio/static/media/left.6aecda05.svg",
+    "static/media/right.b88a67cf.svg": "/Wowio/static/media/right.b88a67cf.svg",
     "static/media/scratch-card-mob.befa4ca6.png": "/Wowio/static/media/scratch-card-mob.befa4ca6.png",
-    "static/media/scratch-card.de20bce6.png": "/Wowio/static/media/scratch-card.de20bce6.png"
+    "static/media/scratch-card.de20bce6.png": "/Wowio/static/media/scratch-card.de20bce6.png",
+    "static/media/sparkle.787904ef.svg": "/Wowio/static/media/sparkle.787904ef.svg",
+    "static/media/top.3057f895.svg": "/Wowio/static/media/top.3057f895.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.01a16c1e.js",
+    "static/js/runtime-main.1f867b06.js",
     "static/css/2.6d844947.chunk.css",
-    "static/js/2.42eccda9.chunk.js",
-    "static/css/main.3849eb79.chunk.css",
-    "static/js/main.ca8fc530.chunk.js"
+    "static/js/2.a517b89f.chunk.js",
+    "static/css/main.92441668.chunk.css",
+    "static/js/main.92aa23c0.chunk.js"
   ]
 }
