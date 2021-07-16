@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Wowio/static/css/main.79a353bb.chunk.css",
-    "main.js": "/Wowio/static/js/main.92aa23c0.chunk.js",
-    "main.js.map": "/Wowio/static/js/main.92aa23c0.chunk.js.map",
-    "runtime-main.js": "/Wowio/static/js/runtime-main.1f867b06.js",
-    "runtime-main.js.map": "/Wowio/static/js/runtime-main.1f867b06.js.map",
-    "static/css/2.6d844947.chunk.css": "/Wowio/static/css/2.6d844947.chunk.css",
-    "static/js/2.a517b89f.chunk.js": "/Wowio/static/js/2.a517b89f.chunk.js",
-    "static/js/2.a517b89f.chunk.js.map": "/Wowio/static/js/2.a517b89f.chunk.js.map",
-    "static/js/3.27ef2e51.chunk.js": "/Wowio/static/js/3.27ef2e51.chunk.js",
-    "static/js/3.27ef2e51.chunk.js.map": "/Wowio/static/js/3.27ef2e51.chunk.js.map",
+    "main.css": "/Wowio/static/css/main.3b49babc.chunk.css",
+    "main.js": "/Wowio/static/js/main.67665b32.chunk.js",
+    "main.js.map": "/Wowio/static/js/main.67665b32.chunk.js.map",
+    "runtime-main.js": "/Wowio/static/js/runtime-main.7e1e2aaa.js",
+    "runtime-main.js.map": "/Wowio/static/js/runtime-main.7e1e2aaa.js.map",
+    "static/css/2.fb991572.chunk.css": "/Wowio/static/css/2.fb991572.chunk.css",
+    "static/js/2.795df61e.chunk.js": "/Wowio/static/js/2.795df61e.chunk.js",
+    "static/js/2.795df61e.chunk.js.map": "/Wowio/static/js/2.795df61e.chunk.js.map",
+    "static/js/3.7857cc6d.chunk.js": "/Wowio/static/js/3.7857cc6d.chunk.js",
+    "static/js/3.7857cc6d.chunk.js.map": "/Wowio/static/js/3.7857cc6d.chunk.js.map",
     "index.html": "/Wowio/index.html",
-    "static/css/2.6d844947.chunk.css.map": "/Wowio/static/css/2.6d844947.chunk.css.map",
-    "static/css/main.79a353bb.chunk.css.map": "/Wowio/static/css/main.79a353bb.chunk.css.map",
-    "static/js/2.a517b89f.chunk.js.LICENSE.txt": "/Wowio/static/js/2.a517b89f.chunk.js.LICENSE.txt",
+    "static/css/2.fb991572.chunk.css.map": "/Wowio/static/css/2.fb991572.chunk.css.map",
+    "static/css/main.3b49babc.chunk.css.map": "/Wowio/static/css/main.3b49babc.chunk.css.map",
+    "static/js/2.795df61e.chunk.js.LICENSE.txt": "/Wowio/static/js/2.795df61e.chunk.js.LICENSE.txt",
     "static/media/albatross-logo.fcf86f90.svg": "/Wowio/static/media/albatross-logo.fcf86f90.svg",
     "static/media/bottom.369f0608.svg": "/Wowio/static/media/bottom.369f0608.svg",
     "static/media/hero-img.436b051a.svg": "/Wowio/static/media/hero-img.436b051a.svg",
@@ -25,10 +25,10 @@
     "static/media/top.3057f895.svg": "/Wowio/static/media/top.3057f895.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1f867b06.js",
-    "static/css/2.6d844947.chunk.css",
-    "static/js/2.a517b89f.chunk.js",
-    "static/css/main.79a353bb.chunk.css",
-    "static/js/main.92aa23c0.chunk.js"
+    "static/js/runtime-main.7e1e2aaa.js",
+    "static/css/2.fb991572.chunk.css",
+    "static/js/2.795df61e.chunk.js",
+    "static/css/main.3b49babc.chunk.css",
+    "static/js/main.67665b32.chunk.js"
   ]
 }
